@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Poppins' , sans-serif;
+}
+.pic2,.pic3,.pic4,.pic5,.pic6{
+	position: relative;
+	text-align: center;
+	font-size: 2vw;
+	align-items: center;
+}
+
+.video{
+	position: relative;
+	padding: 60px 0px 50px 0px;
+	text-align: center;
+
+}
+ul{
+	padding: 20px 0px 200px 100px;
+	font-size: 3vw;
+	
+}
+ul li:before{
+	content: "\2714\0020";
+	color: red;
+}
+.enjos{
+	position: relative;
+	color: white;
+	font-size: 2vw;
+	padding: 10px 0px 10px 20px;
+	background-color: red;
+}
+
+.etab{
+	position: relative;
+	bottom: 75vw;
+	left: 5vw;
+	color: white;
+	font-size: 2vw;
+}
+.button{
+	position: relative;
+	bottom: 25vw;
+	display: flex;
+	justify-content: center;
+}
+
+.button1{
+	background-color: white;
+	color: red;
+	border:none;
+	text-align: center;
+	display: inline-block;
+	font-size: 3vw;
+	width: 70vw;
+	height: 4vw;
+	border-radius: 1vw;
+}
