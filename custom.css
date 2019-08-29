@@ -100,7 +100,7 @@ ul li:before{
 
 
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 480px)
 {
 .img2,.img3,.img4,.img5,.img6{
 	position: relative;
