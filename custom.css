@@ -126,7 +126,7 @@ body{
 	position: relative;
 	width: 90%;
 	height: 100%;
-	margin-left: 10%;
+	margin: auto;
 	border: none;
 	float: none;
 	border-radius: 0px;
@@ -198,6 +198,11 @@ body{
 .but2,.but3,.but5,.but6{
 	width: 40vw;
 	height: 5vw;
+}
+
+.text1, .text2, .text3, .text4, .text5 {
+	padding: 0;
+	margin: auto;
 }
 
 #slider{
