@@ -182,13 +182,8 @@ body{
 
 
 .etab{
-	position: relative;
 	padding: 50px 30px 200px 30px;
-	color: white;
 	font-size: 2vw;
-	background-image: url("6.png");
-	background-size: 100% 100%;
-	background-attachment: fixed;
 }
 .end{
 	padding: 20px 0px 200px 20px;
