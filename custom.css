@@ -121,7 +121,6 @@ margin:100px 20px 50px 80px ;
 .abc>ul{
 	
 	font-size: 2.3vw;
-	padding: 0% 0% 10% 10%;
 }
  .abc>ul> li:before{
 	content: "\2714\0020";
