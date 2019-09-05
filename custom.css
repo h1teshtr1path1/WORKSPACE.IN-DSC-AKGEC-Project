@@ -15,7 +15,7 @@ body{
   height: auto;
 }
 .text4 {
-    padding: 0% 0% 0% 5%;
+    padding: % 0% 0% 5%;
 }
 .pic2{
 	display: flex;
@@ -225,7 +225,7 @@ margin:100px 20px 50px 80px ;
 
 /* Slideshow container */
 .slideshow-container {
-width: 449px;
+width: 100%;
 height: auto;
   position: relative;
 
