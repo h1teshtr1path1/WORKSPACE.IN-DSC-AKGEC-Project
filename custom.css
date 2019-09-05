@@ -206,7 +206,9 @@ margin:100px 20px 50px 80px ;
   height: auto;
   margin: auto;
 }
-
+.content{
+	padding:10px;
+	}
 
 }
 
