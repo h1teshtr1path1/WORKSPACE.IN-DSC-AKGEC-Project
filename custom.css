@@ -188,7 +188,7 @@ height: auto;
 
 .img2{
 	position: relative;
-	width: 90%;
+	width: 80%;
 	height: 100%;
 	margin: auto;
 	border: none;
@@ -267,7 +267,7 @@ height: auto;
 	}
 	
 	.text2,.text3,.text4,.text5,.text6{
-	padding:0;
+	padding:5% 0%;
 		margin:auto;
 	}
 	.but1{
