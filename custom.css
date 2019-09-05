@@ -129,20 +129,6 @@ margin:100px 20px 50px 80px ;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Slideshow container */
 .slideshow-container {
 width: 40%;
 height: auto;
@@ -150,8 +136,6 @@ height: auto;
 
   
 }
-
-/* The dots/bullets/indicators */
 .dot {
   cursor:pointer;
   height: 13px;
