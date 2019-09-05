@@ -15,7 +15,7 @@ body{
   height: auto;
 }
 .text4 {
-    padding: 5% 0% 0% 5%;
+    padding: 0% 0% 0% 5%;
 }
 .pic2{
 	display: flex;
@@ -55,7 +55,7 @@ margin:100px 20px 50px 80px ;
 .etab{
 	position: relative;
 	background-image: url("https://github.com/h1teshtr1path1/h1teshtr1path1.github.io/blob/master/images/6.png?raw=true");
-	height: 700px;
+	height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -246,6 +246,7 @@ height: auto;
 	padding: 50px 30px 200px 30px;
 	color: white;
 	font-size: 2vw;
+	height:70vh;
 	background-image: url("https://github.com/h1teshtr1path1/h1teshtr1path1.github.io/blob/master/images/6.png?raw=true");
 	background-size: 100% 100%;
 	background-attachment: fixed;
@@ -265,7 +266,7 @@ height: auto;
 	padding:10px;
 	}
 	
-	.text2,.text3,.text5,.text6{
+	.text2,.text3,.text4,.text5,.text6{
 	padding:0;
 		margin:auto;
 	}
