@@ -41,7 +41,7 @@ margin:100px 20px 50px 80px ;
 }
 
 .text5,.text3{
-	margin:  5% 5% 5% 5%;
+	padding:  5% 5% 5% 5%;
 
 }
 
@@ -264,6 +264,19 @@ height: auto;
 .content{
 	padding:10px;
 	}
+	
+	.text2,.text3,.text5,.text6{
+	padding:0;
+		margin:auto;
+	}
+	.but1{
+	font-size: 1.3em;
+	margin: 20px 0px 0px 0px;
+	width:auto;
+	height: auto;
+
+
+}
 
 }
 
