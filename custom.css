@@ -91,7 +91,7 @@ nav ul li a:hover {
 }
 
 .bon {
-    background-image: url('img97.jpg');
+    background-image: url('images/WORKSPACEIMG/img97.jpg');
     position: absolute;
     width: 78.8%;
     height: 440px;
@@ -282,7 +282,7 @@ hr {
 
 .content1 {
     position: absolute;
-    background-image: url('conference.jpg');
+    background-image: url('images/WORKSPACEIMG/conference.jpg');
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -290,7 +290,7 @@ hr {
 }
 
 .content2 {
-    background-image: url('discussion.jpg');
+    background-image: url('images/WORKSPACEIMG/discussion.jpg');
     width: 100%;
     height: 100%;
     border-radius: 8px;
@@ -299,7 +299,7 @@ hr {
 }
 
 .content3 {
-    background-image: url('seminarhall.jpg');
+    background-image: url('images/WORKSPACEIMG/seminarhall.jpg');
     width: 100%;
     height: 100%;
     ;
@@ -309,7 +309,7 @@ hr {
 }
 
 .content4 {
-    background-image: url('cafeteria1.jpg');
+    background-image: url('images/WORKSPACEIMG/cafeteria1.jpg');
     width: 100%;
     height: 100%;
     background-size: contain;
@@ -372,7 +372,7 @@ hr {
     left: 53%;
     top: 5%;
     margin-top: 50px;
-    background-image: url('img1.jpg');
+    background-image: url('images/WORKSPACEIMG/img1.jpg');
    
     animation: slider 24s infinite;
     /*border-radius: 8px;*/
@@ -380,37 +380,37 @@ hr {
 
 @keyframes slider {
     0% {
-        background-image: url('img1.jpg');
+        background-image: url('images/WORKSPACEIMG/img1.jpg');
         background-size: 100% 100%;
     }
 
     16% {
-        background-image: url('img2.jpg');
+        background-image: url('images/WORKSPACEIMG/img2.jpg');
         background-size: 100% 100%;
     }
 
     33% {
-        background-image: url('img3.jpg');
+        background-image: url('images/WORKSPACEIMG/img3.jpg');
         background-size: 100% 100%;
     }
 
     49% {
-        background-image: url('img4.jpg');
+        background-image: url('images/WORKSPACEIMG/img4.jpg');
         background-size: 100% 100%;
     }
 
     66% {
-        background-image: url('img5.jpg');
+        background-image: url('images/WORKSPACEIMG/img5.jpg');
         background-size: 100% 100%;
     }
 
     83% {
-        background-image: url('img6.jpg');
+        background-image: url('images/WORKSPACEIMG/img6.jpg');
         background-size: 100% 100%;
     }
 
     100% {
-        background-image: url('img7.jpg');
+        background-image: url('images/WORKSPACEIMG/img7.jpg');
         background-size: 100% 100%;
     }
 }
@@ -644,7 +644,7 @@ a {
 }
 
 #location1 {
-    background-image: url('loca1.jpg');
+    background-image: url('images/WORKSPACEIMG/loca1.jpg');
     background-size: ;
     height: 250px;
     width: 85%;
