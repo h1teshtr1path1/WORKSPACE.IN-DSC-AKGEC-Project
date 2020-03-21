@@ -1,8 +1,11 @@
 <html>
 
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 <head>
     <title>Workspace.in</title>
-    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
      <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -12,33 +15,26 @@
         <div id="navigation-bar">
             <a href="#" class="logo">WORKSPACE</a>
             <nav>
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#gallerycontainer">Gallery</a></li>
-                    <li><a href="#location1">Location</a></li>
-                    <li><a href="#last">Contact</a></li>
-                    <li><a href="#relative3">About</a></li>
+                <ul class="nav-bar">
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#gallerycontainer">GALLERY</a></li>
+                   <!--  <li><a href="#location1">LOCATION</a></li> -->
+                    <li><a href="#last">CONTACT</a></li>
+                    <li><a href="#whowearecontainer">ABOUT</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+<!--  -->
+
+
+<!-- div contact detail form  -->
+
+
+<!--  -->
+
     <section id="relative1">
         <div class="bon"></div>
-        <div class="div1">
-        </div>
-        <div class="div2">
-            <h1 style="color: grey;"><a href="#" class="login">LOGIN</a></h1>
-        </div>
-
-        <div class="contact">
-            <hr class="con">
-            <h2 style="color: white;">Contact Us</h2>
-            <input type="text" class="field" placeholder="Your Name">
-            <input type="email" class="field" placeholder="Your Email">
-            <input type="text" class="field" placeholder="Your Phone">
-            <textarea class="field area" placeholder="Your Query"></textarea>
-            <button class="btn">Send</button>
-        </div>
         <div class="black"></div>
         <div class="heading">
             <h1>Choose the right</h1>
@@ -47,13 +43,69 @@
             <h3>WORK TOGETHER | DREAM BIG
             </h3>
         </div>
-        <div class="block1"></div>
+        <div class="block1">
+                      
+            <form action="/sign_up" method="post"> 
+                      
+            <h1 class="reachus"> Reach Out To us </h1> <hr style="transform: translateX(-285px);" >
+                              
+            <input class="contactform" type="text" name="name" id="name" 
+            placeholder="Name"  required />
+                              
+            <input class="contactform" type="email" name="email" id="email" 
+            placeholder="E-Mail " required /> 
+                              
+            <input class="contactform" type="password" name="password" 
+            id="password" placeholder="Password " required/> 
+                              
+            <input class="contactform" type="text" name="phone" id="phone"  
+            placeholder="Phone Number " required/>
+                        
+            <input type="submit" id="submitDetails"  
+            name="submitDetails" value="Submit" /> 
+                      
+            </form>  
+     </div>
     </section>
+
+
+
+    <!-- div whoe we are  -->
+
+<section id="whowearecontainer">
+    <br>
+    <div id="whoweare">
+        <h1 style="margin: 60px 0 0 0;">WHO WE ARE?</h1>
+        <hr>
+        <h2>BEST COWORKING SPACE IN DELHI NCR AND GROWING.</h2>
+        <div class="container3">
+             <div >
+                 <img class="image" src="man.jpg">
+             </div>
+        <div class="text">
+            <h3>Workspace Opens
+The World Of New Opportunities</h3>
+            <p>
+Workspace offers all the Entrepreneurs and Startups a whole new platform to work and achieve together. We have redesigned co-working spaces to bring just the right ambience for collaboration and innovation.
+<br><br>
+
+With Workspace, comes an environment that inspires you to achieve bigger and better,  together. You can now reinvent the way you work with other people. Workly brings to you encouraging coworking spaces that enhances productivity and ensures you stay focused on your goal. Workly don't lock you into long term fixed contracts. Workly has a workspace for every business size.</p>
+        </div>
+        </div>        
+    </div>  
+</section>
+  
+
+    <!-- div Why us  -->
+
+
     <section id="locate1">
     <div class="locate">
-        <h1 style="color: grey;font-size: 2em;" >
+        <h1 >
             WHY US?
         </h1>
+        <hr>
+        <h2>WE PROVIDE BEST AND EASY AVAILABLE WORKING SPACE FOR STARTUPS.</h2>
     </div>    
     </section>
     <section id="relative2">
@@ -102,28 +154,28 @@
 
             <div class="boxx">
                 <div class="boxxx">
-                    <a href="#">EASY ACCESSIBILITY</a>
+                    EASY ACCESSIBILITY
                 </div>
             </div>
 
             <div class="boxx">
-                <div class="boxxx"> <a href="#">HIGH SPEED INTERNET</a></div>
+                <div class="boxxx">HIGH SPEED INTERNET</div>
             </div>
 
             <div class="boxx">
-                <div class="boxxx"><a href="#">WORKSTATION</a></div>
+                <div class="boxxx">WORKSTATION</div>
             </div>
 
             <div class="boxx">
-                <div class="boxxx"><a href="#">24*7 POWER BACK UP</a></div>
+                <div class="boxxx">24*7 POWER BACK UP</div>
             </div>
 
             <div class="boxx">
-                <div class="boxxx"><a href="#">EVENTS</a></div>
+                <div class="boxxx">EVENTS</div>
             </div>
 
             <div class="boxx">
-                <div class="boxxx"><a href="#">HEALTHY ENVIORNMENT</a></div>
+                <div class="boxxx">HEALTHY ENVIORNMENT</div>
             </div>
 
         </div>
@@ -169,53 +221,50 @@
     </section>
  
 
+<!--  -->
+
+<!-- Last Section -->
+
+<!--  -->
 
 
-
-
-
-
-
-    <section id="location1">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7001.57165308009!2d77.4753694233533!3d28.666130843444133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf2190b2d26bd%3A0x392a851ea9b17c71!2sMahagunpuram%2C%20Ghaziabad%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1582660347655!5m2!1sen!2sin" width="930" height="220" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    </section>
+  
+<div id="contact">
     <section id="last">
+        <div class="newscontainer1">
+            <h1>Subscribe to Our News Letter</h1>
+            <div class="newscontainer">
+            <input class="newstext" type="email" name="email" id="email" 
+            placeholder="E-Mail " required /> 
+                  <input type="submit" id="submitDetails"  
+            name="submitDetails" value="Submit" /> 
+            </div>
+        </div>
         <div class="last1">
-            <h3>DSC PVT. LTD,</h3>
-            <p>Rambag, Delhi</p>
-            <p>India, 113101</p>
-            <p>Phone: +91 7568473640<p>
-                    <p>Email ID:krishnagarg987@gmail.com</p>
-        </div>
-        <div class="last2">
-            <h3 style="text-decoration: none;">Rooms & Suites</h3>
-            <p><a href="#">Elegant Room</a></p>
-            <p><a href="#">Elite Room</a></p>
-            <p><a href="#">Regent Suite</a></p>
-            <p><a href="#">Regal Suite</a></p>
-            <p><a href="#">Luxury Suite</a></p>
-            <p><a href="#">Luxury King Suite</a></p>
-            <p><a href="#">Mharaja Suite</a></p>
-        </div>
-        <div class="last3">
-            <h3 style="text-decoration: none;">Meetings & Events</h3>
-            <p><a href="#">Meetings</a></p>
-            <p><a href="#">Weddings</a></p>
-            <p><a href="#">Event snapshot</a></p>
-            <p><a href="#">Exclusive Use</a></p>
-        </div>
-        <div class="last4">
-            <h3 style="text-decoration: none;">Quick Links</h3>
-            <p><a href="#">Carrers</a></p>
-            <p><a href="#">Privacy Policy</a></p>
-            <p><a href="#">Cancellation </a></p>
-            <p><a href="#">Gallery</a></p>
-            <p><a href="#">Awards</a></p>
-            <p><a href="#">Enquiry</a></p>
-            <p><a href="#">Site map</a></p>
+            <h3>WORKSPACE PVT. LTD,</h3>
+            <p>Rambag, Delhi ,India, 113101</p>
+            <p>Phone: +91 8529810423 <p>
+            <p>Email Id :  </p>
+            <a href=""><img src="fb.jpg" style="width: 40px;border-radius: 20px;"></a>
+            <a href=""><img src="twitter.jpg" style="width: 39px;border-radius: 19.5px;"></a>
+             <a href=""><img src="connect.jpg" style="width: 43px;border-radius: 20px;"></a>
         </div>
 
     </section>
+    <section class="laststrip">
+            <h3>All rights reserved. Workspace 2020 | Designed & Developed by | Developer Student Club AKGEC</h3>
+
+            
+    </section>
+</div>
+
+       
+
+<!--  -->
+
+<!-- javascript   -->
+
+<!--  -->
 
 
 <script type="text/javascript">
