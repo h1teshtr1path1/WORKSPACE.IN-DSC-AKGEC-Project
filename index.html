@@ -55,13 +55,13 @@
             <input class="contactform" type="email" name="email" id="email" 
             placeholder="E-Mail " required /> 
                               
-            <input class="contactform" type="password" name="password" 
-            id="password" placeholder="Password " required/> 
+            <input class="contactform" type="text " name="location" 
+            id="password" placeholder="Loaction(Delhi NCR) " required/> 
                               
             <input class="contactform" type="text" name="phone" id="phone"  
             placeholder="Phone Number " required/>
                         
-            <input type="submit" id="submitDetails"  
+            <input class ="submitform" type="submit"   
             name="submitDetails" value="Submit" /> 
                       
             </form>  
@@ -185,7 +185,7 @@ With Workspace, comes an environment that inspires you to achieve bigger and bet
         <div class="maindiv"></div>
         <div class="maincontent">
             <br> 
-            <h1 style="letter-spacing: 1.5px;">Why WORKSPACE ?</h1>
+            <h1 style="letter-spacing: 1.5px;font-size: 5vh">Why WORKSPACE ?</h1>
             <hr style="transform: translate(-140px,-20px);">
           <p> When you choose WorkSpace, you choose a partner that understands your requirements. With all the perks you get with our Coworking spaces, WorkSpace adds value to its coworking members by providing-</p>
            <ul>
@@ -197,11 +197,36 @@ With Workspace, comes an environment that inspires you to achieve bigger and bet
            </ul>               
         </div>
     </div>
-    <section id="gallerycontainer">
+    <div >
+        <section id="gallerycontainer">
         <br>
         <h1>OUR GALLERY</h1>
         <hr>
         <h2>EXPLORE THE GALLERY TO TAKE A CLOSER LOOK OF WORKSPACE COWORKING SPACES IN DELHI NCR.</h2>
+    </section>
+ <section id="last1">
+    <br><br>
+        <div class="slide hi-slide">
+          <div class="hi-prev "></div>
+            <div class="hi-next "></div>
+            <ul>
+                <li><img src='images/WORKSPACEIMG/cafeteria1.jpg' alt="Img 1" /></li>
+                <li><img src='images/WORKSPACEIMG/img3.jpg' alt="Img 2" /></li>
+                <li><img src='images/WORKSPACEIMG/discussion.jpg' alt="Img 3" /></li>
+                <li><img src='images/WORKSPACEIMG/img4.jpg' alt="Img 4" /></li>
+                <li><img src='images/WORKSPACEIMG/img7.jpg' alt="Img 5" /></li>
+                <li><img src='images/WORKSPACEIMG/img2.jpg' alt="Img 6" /></li>
+                <li><img src='images/WORKSPACEIMG/img6.jpg' alt="Img 7" /></li>
+                <li><img src='images/WORKSPACEIMG/img1.jpg' alt="Img 7" /></li>
+            </ul>
+        </div>
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="js/jquery.hislide.js" ></script>
+        <script>
+            $('.slide').hiSlide();
+        </script>
+
+    </section>
         <div class="slideshowContainer">
   <img class="imageSlides" src="http://s1.picswalls.com/wallpapers/2015/09/20/beautiful-hd-wallpaper-2015_111526537_269.jpg" alt="beach side city view">
   <img class="imageSlides" src="http://4.bp.blogspot.com/-oxlezteeOII/TfiTImj4RlI/AAAAAAAAA1k/UAgctmU5VZo/s1600/Widescreen+Unique+And+Beautiful+Photography+%25284%2529.jpg" alt="leaf on the ground">
@@ -218,9 +243,12 @@ With Workspace, comes an environment that inspires you to achieve bigger and bet
   </div>
   
 </div>
-    </section>
- 
 
+
+
+
+    </div>
+   
 <!--  -->
 
 <!-- Last Section -->
@@ -236,7 +264,7 @@ With Workspace, comes an environment that inspires you to achieve bigger and bet
             <div class="newscontainer">
             <input class="newstext" type="email" name="email" id="email" 
             placeholder="E-Mail " required /> 
-                  <input type="submit" id="submitDetails"  
+                  <input type="submit" class="submitform1"  
             name="submitDetails" value="Submit" /> 
             </div>
         </div>
@@ -245,9 +273,12 @@ With Workspace, comes an environment that inspires you to achieve bigger and bet
             <p>Rambag, Delhi ,India, 113101</p>
             <p>Phone: +91 8529810423 <p>
             <p>Email Id :  </p>
-            <a href=""><img src="images/WORKSPACEIMG/fb.jpg" style="width: 40px;border-radius: 20px;"></a>
-            <a href=""><img src="images/WORKSPACEIMG/twitter.jpg" style="width: 39px;border-radius: 19.5px;"></a>
+            <div class="lastimage">
+                        <a href=""><img  src="images/WORKSPACEIMG/fb.jpg" style="width: 40px;border-radius: 20px;"></a>
+            <a href=""><img  src="images/WORKSPACEIMG/twitter.jpg" style="width: 39px;border-radius: 19.5px;"></a>
              <a href=""><img src="images/WORKSPACEIMG/connect.jpg" style="width: 43px;border-radius: 20px;"></a>
+            </div>
+    
         </div>
 
     </section>
