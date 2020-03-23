@@ -12,6 +12,25 @@ header {
     position: relative;
     height: 11vh;
 }
+/**/
+
+/*css sign up form */
+
+/**/
+.signupcss{ 
+    padding:0;
+    margin: 150px 0; 
+    font-family: 'Helvetica', serif; 
+    box-shadow: 5px 5px 7px 5px #888888; 
+      
+} 
+.signupcss h1{ 
+    font-size: 30px; 
+    text-align:center; 
+    background-color: orange;
+    font-family: 'Helvetica', serif; 
+      
+} 
 
 /**/
 
@@ -27,18 +46,21 @@ header {
     border: 1px solid lightgrey;
     border-radius: 4px
 }
-#submitdetails{
+.submitform,.submitform1{
     width: 150px;
     height: 40px;
     background-color: rgb(255, 106, 0);
     font-size: 18px;
     color: white;
     border: 0px;
-
+    margin: 0;
 }
+
 .reachus{
     font-weight: 400;
     font-size: 25px;
+    color: grey;
+    margin: 0;
     margin: 10px 0 0 20px;
     font-family: 'Lato', sans-serif;
 }
@@ -56,13 +78,13 @@ header {
 }
 
 #whoweare h1{
-    font-size: 40px;
+    font-size: 4.5vh;
     text-align: center;
     color: grey;
     
 }
 #whoweare h2{
-    font-size: 15px;
+    font-size: 2.2vh;
     font-weight: 100;
     letter-spacing: 1px;
     text-align: center;
@@ -101,7 +123,7 @@ header {
     font-size: 16px;
     line-height: 1.7;
     margin-top: 16px;
-    /*margin-left: 50px;*/
+    /*margin-left: 100px;*/
     max-width: 600px;
     font-weight: 400;
 }
@@ -252,8 +274,11 @@ hr {
 }
 
 .heading h2 {
-    font-size: 8vw;
+    font-size: 90px;
     margin: 3%;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color: white;
 }
 
 .heading h3 {
@@ -288,13 +313,13 @@ hr {
 }
 
 .locate h1{
-    font-size: 40px;
+    font-size: 4.5vh;
     text-align: center;
     color: grey;
     margin: 100px 0 0 0;
 }
 .locate h2{
-     font-size: 15px;
+     font-size: 2.2vh;
     font-weight: 100;
     color: grey;
     letter-spacing: 1px;
@@ -379,7 +404,7 @@ hr {
     padding: 5px;
     margin-top: 20%;
     align-content: center;
-    font-size: 1.3em;
+    font-size: 4.5vh;
     text-align: center;
     background-color: WHITE;
     font-family: monospace;
@@ -525,7 +550,7 @@ hr {
 /**/
 
 #relative4 h1 {
-    font-size: 40;
+    font-size: 4.5vh;
     text-align: center;
     color:#989797;
     margin-bottom: 0;
@@ -537,8 +562,9 @@ hr {
     text-align: center;
     margin-top: 15;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 2.2vh;
     margin-bottom: 40;
+    color: grey;
 }
 
 #relative4 {
@@ -629,7 +655,7 @@ hr {
 
 }
 .newscontainer1 h1{
-    font-size: 2em;
+    font-size: 4.5vh;
     color: grey;
     line-height: 2;
     letter-spacing: 1px;
@@ -666,20 +692,211 @@ hr {
 
 /**/
 #gallerycontainer h1{
-    font-size: 40px;
+    font-size: 4.5vh;
     text-align: center;
     color: grey;
     margin: 100px 0 0 0;
 }
 
 #gallerycontainer h2{
-    font-size: 15px;
+    font-size: 2.2vh;
     font-weight: 100;
+    color: grey;
     letter-spacing: 1px;
     text-align: center;
 }
 
 /*Gallery*/
+
+/**/
+
+/*css jquery slider*/
+
+/**/
+#last1{    
+    font-family: 'Roboto Condensed', sans-serif;
+   /* overflow-x: hidden;
+    overflow-y: hidden;*/
+    
+}
+   
+.hi-slide{ 
+position: relative; 
+width: 60%; 
+height: 350px; 
+margin: 20px 0 50px 300px; 
+}
+            
+.hi-slide .hi-next,
+.hi-slide .hi-prev{ 
+position: absolute;
+top: 50%; 
+margin-top: -35px;     
+/*border-radius: 50px; */
+line-height: 40px;
+/*text-align: center; */
+cursor: pointer; 
+color: #c1bbbb;               
+transition: all 0.6s;
+font-size: 8vh; 
+font-weight: bold;
+}
+.hi-slide .hi-next{
+    /*transform: translateX(-45px);*/
+}
+
+.hi-slide .hi-next:hover, 
+.hi-slide .hi-prev:hover 
+{
+opacity: 1; 
+background-color: #fff;  
+}
+            
+.hi-slide .hi-prev{ 
+left: -101px;
+}
+            
+.hi-slide .hi-prev::before{ 
+content: '<'; 
+}
+    
+.hi-slide .hi-next{ 
+right: -60px;
+}
+    
+.hi-slide .hi-next::before{
+content: '>';
+}
+    
+.hi-slide > ul{ 
+list-style: none; 
+position: relative;
+width: 850px; 
+height: 350px; 
+margin: 0;
+padding: 0;
+}
+
+.hi-slide > ul > li {
+overflow: hidden; 
+position: absolute; 
+z-index: 0; 
+left: 377px;
+top: 146px; 
+width: 0; 
+height: 100px; 
+margin: 0; 
+padding: 10px;             
+background-color: white;
+cursor: pointer;
+box-shadow: 0 5px 20px rgba(112,134,230,.3  );
+}
+            
+.hi-slide > ul > li > img{ 
+width: 100%; 
+height:100%;
+}
+
+.slideshowContainer {
+  position: relative;
+  overflow: hidden;
+  width: 0%;
+  height: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+/*responsive design css media queries */
+
+/**/
+
+@media only screen and (max-width:360px) {
+  
+body{
+    margin: 0;
+    width: 100%;
+}
+.logo{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.nav-bar{
+    display: none;
+}
+
+.maincontent{
+    display: none;
+}
+
+/**/
+
+/*css media query home */
+
+/**/
+
+.heading{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.heading h2 {
+    font-size: 5.2vh;
+    margin: 3%;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+}
+
+.black {
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    height: 540px;
+    opacity: 0.5;
+}
+.container3{
+    display: inline;
+    width: 100%;
+
+}
+
+
+.text{
+    max-width: 400px;
+}
+
+
+
+
 .gallery{
     display: flex;
     width: 90%;
@@ -695,14 +912,22 @@ hr {
 
 
 
+
+/*css media query for gallery*/
+#last1{
+    display: none;
+}
+
+
 .slideshowContainer {
-  position: relative;
-  overflow: hidden;
-  margin: -15px 0 75px;
-  width: 90%;
-  margin-left: 5%;
-  height: 500px;
-  /*box-shadow: 0 10px 20px rgba(112,134,230,.2);*/
+ position: relative;
+    overflow: hidden;
+    /* margin: -15px 0 75px; */
+    margin: 10px 0 0 20px;
+    width: 90%;
+    margin: 10px auto;
+    height: 350px;
+  box-shadow: 0 10px 20px rgba(112,134,230,.2);
 
 }
 
@@ -772,50 +997,189 @@ hr {
 } 
 
 
+
+
+
+
+
+/*
+
+/*css media query contact details form*/
+
 /**/
-
-/*responsive design css media queries */
-
-/**/
-
-@media only screen and (max-width:771px) {
-  
-body{
-    margin: 0;
-    width: 100%;
-}
-
-.nav-bar{
-    display: none;
-}
-
 .block1{
-    display: none;
+    max-width: 300px;
+    opacity: 0.8;
+    height: auto;
+    margin: 270px 0 20px 30px;
 }
-.heading{
-    text-align: center;
-    margin-top: 150px;
+.contactform{
+   max-width: 200px;
+    height: 10px;
+    display: inherit;
+    margin: 5px 50px;
+    font-size: medium;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
 }
-.black {
-    position: absolute;
-    background-color: #000000;
-    width: 100%;
-    height: 540px;
-    opacity: 0.5;
-}
-.container3{
-    display: inline;
-    width: 100%;
 
+.submitform{
+    width: 200px;
+    height: 20px;
+    z-index: 1;
+    background-color: rgb(255, 106, 0);
+    font-size: 12px;
+    color: white;
+    border: 0px;
+    margin-left: 50px;
+    opacity: 1;
+}
+.reachus{
+   font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0 0 78px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(236, 110, 20);
+}
+
+/**/
+
+/*css media query who we are*/
+
+/**/
+.text h3{
+    text-transform: capitalize;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1c2049 !important;
+    line-height: 1.4;
+    font-weight: 500;
+    font-size: 3.2vh;
+    text-align: center;
+    max-width: 90%;
+    margin: 20px auto;
+    letter-spacing: 1.1px;
 }
 
 .image{
-    width: 540px;
+    width: 100%;
     height: 350px;
     margin: auto;
 }
-.text{
-    max-width: 400px;
+.text,.text p{
+    max-width: 90%;
+    margin:20px  auto;
+    text-align: center;
+    font-size: 2.3vh;
+}
+
+/**/
+
+/*css media query why us*/
+
+/**/
+.locate,.locate h1 {
+    text-align: center;
+    color: grey;
+    font-family: sans-serif;
+    margin-top: 35px;
+    /*margin-bottom: 20px;*/
+}
+
+
+.box {
+    margin: 20px;
+}
+
+
+/**/
+
+/*css media query our features*/
+
+/**/
+
+#relative4 h1 {
+    font-size: 4.5vh;
+    text-align: center;
+    color: #989797;
+    margin: 20px auto 0;
+    font-family: sans-serif;
+}
+.boxx {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 7px;*/
+    margin: auto;
+    border:0px;
+    width: auto;
+    opacity: .8;
+    color: grey;
+    font-size: 3vh;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.boxxx {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(255, 106, 0);
+    padding: 10px;
+}
+#relative4 {
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    position: relative;
+    /* font-family: 'poppins', sans-serif; */
+}
+
+.container2 {
+    width: 100%;
+    margin: auto;
+}
+
+
+/**/
+
+
+/*css animation maindiv why workspace*/
+
+
+/**/
+.maindiv{
+    display: none;
+}
+
+#relative3 {
+    display: none;
+} 
+
+/**/
+
+/*css gallery */
+
+/**/
+#gallerycontainer h1 {
+    font-size: 4.5vh;
+    text-align: center;
+    color: grey;
+    margin: 20px auto
+}
+#gallerycontainer h2 {
+    font-size: 2.2vh;
+    font-weight: 100;
+    color: grey;
+    letter-spacing: 1px;
+    text-align: center;
+    max-width: 90%;
+    margin: 20px auto;
+}
+hr {
+    width: 50%;
+     transform: translateX(0px); 
 }
 
 
@@ -823,26 +1187,72 @@ body{
 
 
 
+/**/
 
+/*css media query last section*/
 
+/**/
+.last1{
+    width: 100%;
+    margin: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.laststrip h3{
+    margin: 20px;
+    font-size: 1.5vh;
+}
+.newscontainer1 h1 {
+    font-size: 3.5vh;
+    color: grey;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.newstext {
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 70%;
+    margin: 20px auto;
+    font-size: 3vh;
+    background: none;
+    height: 25px;
+}
+.submitform1 {
+    width: 50%;
+    height: 20px;
+    z-index: 1;
+    background-color: rgb(255, 106, 0);
+    font-size: 12px;
+    color: white;
+    border: 0px;
+    margin-left: 50px;
+    opacity: 1;
+    margin: 10px auto;
+}
+.last1 {
+    width: 100%;
+    margin: 20px auto;
+}
+.last1 h3 {
+    font-size: 3vh;
+    text-align: center;
+    width: 100%;
+    margin: 100px auto 0;
+}
+.last1 p{
+    font-size: 2vh;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+}
+.lastimage {
+    width: 100%;
+    margin: 40px auto;
+    transform: translateX(115px);
+}
+.heading h3 {
+    width: 100%;
+    letter-spacing: .2em;
+    font-size: 1.5vh;
+}
 
 }
