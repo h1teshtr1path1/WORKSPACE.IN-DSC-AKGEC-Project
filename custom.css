@@ -12,6 +12,10 @@ header {
     position: relative;
     height: 11vh;
 }
+.menubttn{
+    display: none;
+}
+
 /**/
 
 /*css sign up form */
@@ -1258,5 +1262,15 @@ hr {
     letter-spacing: .2em;
     font-size: 1.5vh;
 }
+    .menubttn hr{
+    width: 20px;
+    top: 0;
+}
+.menubttn{
+    display: block;
+    margin: 20px 10px;
+    float: right;
+}
+
 
 }
