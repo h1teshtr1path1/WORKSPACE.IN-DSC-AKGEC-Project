@@ -847,6 +847,15 @@ body{
 .logo{
     font-weight: 800;
     font-size: 30px;
+    color: rgb(255, 106, 0);
+    height: 60px;
+    letter-spacing: 1.5px;
+     line-height: 0;
+    padding: 2vh;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    text-decoration: none;
 }
 
 .nav-bar{
