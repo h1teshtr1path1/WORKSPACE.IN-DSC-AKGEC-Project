@@ -14,7 +14,8 @@
     <header>
         <div id="navigation-bar">
             <a href="#" class="logo">WORKSPACE</a>
-          <div class="menubttn"><hr><hr><hr></div>
+          <div id="menubttn" class="menubttn" onclick="menuopen()"><hr><hr><hr></div>
+            <div id="closebttn" class="disappear" onclick="menuclose()">X</div>
             <nav>
                 <ul class="nav-bar">
                     <li><a href="#" class="active">HOME</a></li>
@@ -26,6 +27,21 @@
             </nav>
         </div>
     </header>
+  
+  
+<!--    -->
+  
+<!--   media query menu list -->
+  
+<!--    -->
+   <div id="menu">
+       <ul id="menulist" class="disappear">
+                    <li onclick="disappear()"><a href="#" class="menulistitem">HOME</a></li>
+                    <li  onclick="disappear()"><a href="#gallerycontainer"  class="menulistitem">GALLERY</a></li>
+                    <li  onclick="disappear()"><a href="#last"  class="menulistitem">CONTACT</a></li>
+                    <li  onclick="disappear()"><a href="#whowearecontainer"  class="menulistitem">ABOUT</a></li>
+                </ul>
+    </div>
 <!--  -->
 
 
@@ -34,7 +50,7 @@
 
 <!--  -->
 
-    <section id="relative1">
+    <section id="relative1" class="relative1">
         <div class="bon"></div>
         <div class="black"></div>
         <div class="heading">
@@ -301,6 +317,30 @@ With Workspace, comes an environment that inspires you to achieve bigger and bet
 
 <script type="text/javascript">
 
+  function menuopen(){
+  document.getElementById("menu").className = "menu1";
+  document.getElementById("relative1").className = "disappear";
+  document.getElementById("menubttn").className ="disappear";
+   document.getElementById("closebttn").className = "closebttn";
+   document.getElementById("menulist").className = "menulist";
+
+}
+function menuclose(){
+  document.getElementById("menu").className = "menu2";
+  document.getElementById("closebttn").className = "disappear";
+  document.getElementById("menubttn").className ="menubttn";
+  document.getElementById("relative1").className = "relative1";
+  document.getElementById("menulist").className = "disappear";
+}
+function disappear(){
+   document.getElementById("relative1").className = "relative1";
+   document.getElementById("menu").className = "menu2";
+   document.getElementById("closebttn").className = "disappear";
+    document.getElementById("menubttn").className ="menubttn";
+      document.getElementById("menulist").className = "disappear";
+}
+  
+  
 
 window.onscroll = function() {myFunction()};
 
