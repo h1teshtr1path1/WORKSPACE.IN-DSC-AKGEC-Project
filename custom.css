@@ -15,6 +15,9 @@ header {
 .menubttn{
     display: none;
 }
+.disappear{
+    display: none;
+}
 
 /**/
 
@@ -219,7 +222,7 @@ nav ul li a:hover {
 /**/
 
 
-#relative1 {
+.relative1 {
     width: 100%;
     height: 71.4%;
     background-repeat: no-repeat;
@@ -1262,14 +1265,60 @@ hr {
     letter-spacing: .2em;
     font-size: 1.5vh;
 }
-    .menubttn hr{
+    
+/* */
+    
+/*     css menu list media query */
+    
+/*      */
+.menubttn hr{
     width: 20px;
     top: 0;
 }
+
 .menubttn{
     display: block;
     margin: 20px 10px;
     float: right;
+}
+
+.menu1{
+    width: 100%;
+    height: 576px;
+    background-color: grey;
+    background-image: url();
+
+}
+.disappear{
+    display: none;
+}
+
+.closebttn{
+    display: block;
+    float: right;
+    color: grey;
+    margin: 20px 10px;
+    font-size: 25px;
+}
+
+.menulist {
+    color: white;
+    /*font-size: 0px;*/
+    margin: 0;
+    /* width: 50%; */
+    text-decoration: none;
+    text-align: left;
+    padding: 150px 0px;
+}
+.menulistitem {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    /* margin-top: 20px; */
+}
+#menulist li {
+    padding: 25px 0 0 20px;
 }
 
 
